@@ -31,5 +31,5 @@ jobs:
           path: ./artifacts/
 
       - name: echo file
-        run: echo hello.txt
+        run: cat ./artifacts/hello.txt
 
